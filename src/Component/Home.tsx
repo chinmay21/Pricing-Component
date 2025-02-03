@@ -34,11 +34,11 @@ const Home = () => {
                  <p className="font-bold">Monthly</p>         
                 </div> 
                 {/* Cards Parent Conatiner */}
-                <div className="flex">
+                <div className="flex mt-[50px]">
                     {/* Basic Card */}    
-                    <div>
-                      <p>Basic</p>
-                      <span>${basicPrice}</span>
+                    <div className="w-[450px] h-[400px] bg-[#FFFFFF] rounded-xl mt-[50px]">
+                      <p className="text-[#B3B5C6] font-bold text-lg pt-8">Basic</p>
+                      <p><span>$</span>{basicPrice}</p>
                       <div></div>
                       <p>500 GB Storage</p>  
                       <div></div>
@@ -49,10 +49,10 @@ const Home = () => {
                       <button>LEARN MORE</button>
                     </div>
                     {/* Professional Card */}
-                    <div>
+                    <div className="w-[450px] h-[500px] bg-[#9ea3ee] rounded-xl">
                         <div>
                         <p>Professional</p>
-                        <span>${professionalPrice}</span>
+                        <p><span>$</span>{professionalPrice}</p>
                         <div></div>
                         <p>1 TB Storage</p>  
                         <div></div>
@@ -64,10 +64,10 @@ const Home = () => {
                         </div>
                     </div>
                     {/* Master Card */}
-                    <div>
+                    <div className="w-[450px] h-[400px] bg-[#FFFFFF] rounded-xl mt-[50px]">
                         <div>
                         <p>Master</p>
-                        <span>${masterPrice}</span>
+                        <p><span>$</span>{masterPrice}</p>
                         <div></div>
                         <p>2 TB Storage</p>  
                         <div></div>
