@@ -36,45 +36,45 @@ const Home = () => {
                 {/* Cards Parent Conatiner */}
                 <div className="flex mt-[50px]">
                     {/* Basic Card */}    
-                    <div className="w-[450px] h-[400px] bg-[#FFFFFF] rounded-xl mt-[50px]">
+                    <div className="w-[350px] h-[450px] bg-[#FFFFFF] rounded-xl mt-[25px]">
                       <p className="text-[#B3B5C6] font-bold text-lg pt-8">Basic</p>
-                      <p><span>$</span>{basicPrice}</p>
-                      <div></div>
-                      <p>500 GB Storage</p>  
-                      <div></div>
-                      <p>2 Users Allowed</p>
-                      <div></div>
-                      <p>Send up to 3 GB</p>
-                      <div></div>
+                      <p className="text-[70px] text-[#494C5F] font-bold pb-4"><span className="text-[40px] bottom-2 relative">$</span>{basicPrice}</p>
+                      <div className="w-[85%] h-[1.5px] bg-[#b3B5C6] ml-[30px]"></div>
+                      <p className="text-[#B3B5C6] font-bold py-3">500 GB Storage</p>  
+                      <div className="w-[85%] h-[1.5px] bg-[#b3B5C6] ml-[30px]"></div>
+                      <p className="text-[#B3B5C6] font-bold py-3">2 Users Allowed</p>
+                      <div className="w-[85%] h-[1.5px] bg-[#b3B5C6] ml-[30px]"></div>
+                      <p className="text-[#B3B5C6] font-bold py-3">Send up to 3 GB</p>
+                      <div className="w-[85%] h-[1.5px] bg-[#b3B5C6] ml-[30px]"></div>
                       <button>LEARN MORE</button>
                     </div>
                     {/* Professional Card */}
-                    <div className="w-[450px] h-[500px] bg-[#9ea3ee] rounded-xl">
+                    <div className="w-[380px] h-[500px] bg-gradient-to-b from-[#9b90ff] to-[#8689E2] rounded-xl pt-[22px]">
                         <div>
-                        <p>Professional</p>
-                        <p><span>$</span>{professionalPrice}</p>
-                        <div></div>
-                        <p>1 TB Storage</p>  
-                        <div></div>
-                        <p>5 Users Allowed</p>
-                        <div></div>
-                        <p>Send up to 10 GB</p>
-                        <div></div>
+                        <p className="text-[#FFFFFF] font-bold text-lg pt-8">Professional</p>
+                        <p className="text-[70px] text-[#FFFFFF] font-bold pb-4"><span className="text-[40px] bottom-2 relative">$</span>{professionalPrice}</p>
+                        <div className="w-[85%] h-[1.5px] bg-[#b3B5C6] ml-[30px]"></div>
+                        <p  className="text-[#FFFFFF] font-bold py-3">1 TB Storage</p>  
+                        <div className="w-[85%] h-[1.5px] bg-[#b3B5C6] ml-[30px]"></div>
+                        <p  className="text-[#FFFFFF] font-bold py-3">5 Users Allowed</p>
+                        <div className="w-[85%] h-[1.5px] bg-[#b3B5C6] ml-[30px]"></div>
+                        <p  className="text-[#FFFFFF] font-bold py-3">Send up to 10 GB</p>
+                        <div className="w-[85%] h-[1.5px] bg-[#b3B5C6] ml-[30px]"></div>
                         <button>LEARN MORE</button>
                         </div>
                     </div>
                     {/* Master Card */}
-                    <div className="w-[450px] h-[400px] bg-[#FFFFFF] rounded-xl mt-[50px]">
+                    <div className="w-[350px] h-[450px] bg-[#FFFFFF] rounded-xl mt-[25px]">
                         <div>
-                        <p>Master</p>
-                        <p><span>$</span>{masterPrice}</p>
-                        <div></div>
-                        <p>2 TB Storage</p>  
-                        <div></div>
-                        <p>10 Users Allowed</p>
-                        <div></div>
-                        <p>Send up to 20 GB</p>
-                        <div></div>
+                        <p className="text-[#B3B5C6] font-bold text-lg pt-8">Master</p>
+                        <p className="text-[70px] text-[#494C5F] font-bold pb-4"><span className="text-[40px] bottom-2 relative">$</span>{masterPrice}</p>
+                        <div className="w-[85%] h-[1.5px] bg-[#b3B5C6] ml-[30px]"></div>
+                        <p className="text-[#B3B5C6] font-bold py-3">2 TB Storage</p>  
+                        <div className="w-[85%] h-[1.5px] bg-[#b3B5C6] ml-[30px]"></div>
+                        <p className="text-[#B3B5C6] font-bold py-3">10 Users Allowed</p>
+                        <div className="w-[85%] h-[1.5px] bg-[#b3B5C6] ml-[30px]"></div>
+                        <p className="text-[#B3B5C6] font-bold py-3">Send up to 20 GB</p>
+                        <div className="w-[85%] h-[1.5px] bg-[#b3B5C6] ml-[30px]"></div>
                         <button>LEARN MORE</button>
                         </div>
                     </div>
