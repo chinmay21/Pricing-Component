@@ -28,3 +28,17 @@ input[type="checkbox"] {
 input[type="checkbox"]:checked + .toggle::before {
     transform: translateX(-33px);
 }
+.btn {
+    transition: all ease-out;
+}
+
+.btn:hover{
+    background-color: #FFFFFF;
+    color: #848AE6;
+}
+
+.professional-btn:hover{
+    background-color: transparent;
+    color: #FFFFFF;
+}
+
